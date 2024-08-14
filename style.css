@@ -46,7 +46,7 @@ a{
 }
 
 img{
-    margin-left: 150px;
+    display: flex;
 }
 
 .titulo-morbus{
@@ -104,7 +104,7 @@ img{
     text-align: center;
 }
 
-.geral-2,
+.geral-2 img,
 .geral-4 img{
     margin-left: -10px;
 }
@@ -119,11 +119,13 @@ img{
 .geral-3 h2{
     color: #CFE0C3;
     font-size: 40px;
+    text-align: center;
 }
 
 .geral-3 p{
     color: #fff;
     font-size: 30px;
+    text-align: center;
 }
 
 .textos-cima,
@@ -154,3 +156,69 @@ img{
     height: 242px;
     border-radius: 40px;
 }
+
+.p5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100svh;
+}
+
+.p5 img{
+    display: flex;
+    margin-right: 400px;
+    height: 800px;
+    margin-left: -200px;
+}
+
+.p5 button{
+    background-color: #538E96;
+    color: black;
+    border: none;
+    border-radius: 60px;
+    width: 270px;
+    height: 69px;
+    font-size: 30px;
+}
+
+.cv,
+.sp,
+.se{
+    padding: 50px 40px;
+}
+
+.p6{
+    background-color: #CFE0C3;
+    height: 100svh;
+}
+
+.p6 button{
+    background-color: #538E96;
+    color: black;
+    border: none;
+    border-radius: 60px;
+    width: 379px;
+    height: 131px;
+    font-size: 30px;   
+}
+
+.botao-atividade,
+.botao-curiosidade{
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    gap: 20px;
+}
+
+.geral-6 img{
+    display: flex;
+}
+
+.morbus-p6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+
+
