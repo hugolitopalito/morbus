@@ -43,6 +43,7 @@ a{
 .p1{
     display: flex;
     height: 100svh;
+    gap: 300px;
 }
 
 img{
@@ -191,6 +192,7 @@ img{
 .p6{
     background-color: #CFE0C3;
     height: 100svh;
+    display: flex;
 }
 
 .p6 button{
@@ -205,20 +207,87 @@ img{
 
 .botao-atividade,
 .botao-curiosidade{
-    display: flex;
     flex-direction: column;
     margin: 200px;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.geral-6 img{
+.perninha{
     display: flex;
 }
 
 .morbus-p6{
+    padding:  80px 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
 }
 
+.p7{
+    background-color: #538E96;
+    height: 100svh;
+}
 
+.morbus-p7{
+    padding: 80px 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.geral-7 h2{
+    color: #CFE0C3;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.geral-7 h3{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 70px;
+}
+
+.geral-7 p{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    font-size: 50px;
+}
+
+.geral-7 img{
+    display: flex;
+    justify-content: center;
+}
+
+.p8{
+    color: #fff;
+    height: 100svh;
+}
+
+.p8 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.geral-8{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    gap: 400px;
+}
+
+.artista-1 a,
+.artista-2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral-8 img{
+    height: 74px;
+    width: 74px;
+}
 
